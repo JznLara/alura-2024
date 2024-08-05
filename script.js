@@ -6,67 +6,67 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Como a religião influencia a percepção do estupro nas sociedades?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                texto: "Em algumas sociedades, a religião pode condenar fortemente o estupro, promovendo normas morais que protegem os indivíduos e incentivam o respeito e a dignidade humana.",
+                afirmacao: "Religião, estrupo e superpopulação são temas complexos e interconectaos que afetam profundamente a sociedade. "
             },
             {
-                texto: "Isso é maravilhoso!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                texto: "Em algumas culturas, certas interpretações religiosas podem justificar ou minimizar a gravidade do estupro, especialmente quando se trata de questões de honra ou de controle sobre o corpo feminino.",
+                afirmacao: "Religião, estrupo e superpopulação são temas complexos e interconectaos que afetam profundamente a sociedade. "
             }
         ]
     },
     {
-        enunciado: "Com a descoberta desta tecnologia, chamada Inteligência Artificial, uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "Qual é o papel da educação religiosa na prevenção do estupro?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                texto: "A educação religiosa pode ser utilizada para promover valores de respeito, consentimento e dignidade humana, ajudando a prevenir o estupro e outras formas de violência sexual.",
+                afirmacao: "A religião, muitas vezes, oferece um conjunto de valores e normas que orientam comportamentos e atitudes individuais e coltivas. "
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                texto: "se a educação religiosa for baseada em dogmas que perpetuam a desigualdade de gênero ou estereótipos negativos, ela pode contribuir para a perpetuação de atitudes permissivas em relação ao estupro.",
+                afirmacao: "A religião, muitas vezes, oferece um conjunto de valores e normas que orientam comportamentos e atitudes individuais e coltivas. "
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "De que forma a intersecção entre estupro, religião e superpopulação pode ser abordada para promover mudanças positivas na sociedade?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "Abordar a intersecção entre esses temas requer a promoção de educação abrangente, que inclua princípios religiosos que valorizam a dignidade humana, juntamente com o ensino de saúde sexual e reprodutiva e planejamento familiar.",
+                afirmacao: "Em algumas tradições religiosas, questões como o controle da natalidade e os direitos as mulhres podem ser tratados de maneira restritiva, "
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                texto: "políticas públicas que considerem os impactos da superpopulação e trabalhem para fortalecer a proteção e os direitos das pessoas vulneráveis podem ajudar a criar um ambiente mais seguro e equitativo para todos.",
+                afirmacao: "Em algumas tradições religiosas, questões como o controle da natalidade e os direitos as mulhres podem ser tratados de maneira restritiva, "
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "De que maneira a superpopulação pode agravar o problema do estupro?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                texto: "A superpopulação pode levar a recursos limitados, aumentando o estresse social e econômico, o que pode, por sua vez, resultar em um aumento na violência, incluindo estupro.",
+                afirmacao: "influenciando a dinamica populacional e a percepção de violencia sexual. "
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
+                texto: "Em áreas superpopuladas, a aplicação da lei e a proteção aos indivíduos podem ser mais difíceis de gerenciar, deixando as pessoas mais vulneráveis a crimes como o estupro.",
+                afirmacao: "influenciando a dinamica populacional e a percepção de violencia sexual."
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "Como diferentes religiões abordam a questão da superpopulação e suas consequências sociais, como o estupro?",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
+                texto: "Algumas religiões podem encorajar a limitação do número de filhos para evitar problemas de superpopulação e suas consequências, promovendo planejamento familiar responsável.",
+                afirmacao: " "
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                texto: "Outras religiões podem ter doutrinas que incentivam grandes famílias, potencialmente exacerbando problemas de superpopulação e os desafios sociais que a acompanham, como a violência sexual.",
+                afirmacao: " "
             }
         ]
     },
@@ -105,7 +105,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "Sobre o Tema...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
